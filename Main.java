@@ -15,6 +15,7 @@ public class Main {
         Arrow sharpArrow = new Arrow();
         System.out.println(superSword.name+ " " + superSword.desc);
 
+        //Enemies
         Zombie fastZombie = new Zombie();
         Zombie slowZombie = new Zombie();
         Ogre greenOgre = new Ogre();
@@ -31,5 +32,15 @@ public class Main {
 
         GameBoard gameBoard = new GameBoard("Tic Tac Toe");
         System.out.println(gameBoard.name);
+
+        //Actions
+        MoveEast moveEast = new MoveEast();
+        MoveNorth moveNorth = new MoveNorth();
+        MoveSouth moveSouth = new MoveSouth();
+        MoveWest moveWest = new MoveWest();
+        Attack attack = new Attack();
+        Flee flee = new Flee();
+        ViewInventory viewInventory = new ViewInventory();
+        Slide slide = new Slide();
     }
 }
