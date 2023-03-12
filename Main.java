@@ -42,5 +42,9 @@ public class Main {
         Flee flee = new Flee();
         ViewInventory viewInventory = new ViewInventory();
         Slide slide = new Slide();
+
+        World world = new World();
+        world.load_tiles();
     }
+
 }

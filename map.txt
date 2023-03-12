@@ -1,0 +1,5 @@
+ 	 	 	 	LeaveCaveRoom
+			CyclopsRoom	EmptyCavePath
+ 	 	 	EmptyCavePath	  
+ 	 	 	TreasureRoom	FindWizardRoom
+OgreRoom	TreasureRoom	StartingRoom	TreasureRoom	FindSwordRoom
